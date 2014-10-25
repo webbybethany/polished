@@ -1,0 +1,98 @@
+/*
+ Theme Name:   Fifteen Child
+ Theme URI:    http://www.ariawebservices.com/photodemo/wp-content/themes/fifteen-child
+ Description:  Fifteen Child Theme
+ Author:       Bethany Hernandez
+ Author URI:   http://www.ariawebservices.com
+ Template:     fifteen
+ Version:      1.0.0
+ Custom Colors: #B20E00
+*/
+
+@import url("../fifteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.slideshow-slide > .slideshow-slide-caption {
+background: rgba(0, 0, 0, 0.6);
+right: 0;
+left: 0;
+margin: auto;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+@media screen and (min-width: 600px){
+	.slideshow-slide > .slideshow-slide-caption {
+	width:50%;
+	}
+}
+
+@media screen and (max-width: 599px){
+	.slideshow-slide > .slideshow-slide-caption {
+	width:80%;
+	}
+}
+
+.menu {
+font-weight: bolder;
+font-size: 14px;
+font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+
+h2 .site-description {
+font-weight: bolder;
+font-size: 14px;
+font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+color: #B20E00;
+}
+
+.post-title{
+font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+color: #B20E00;
+}
+
+.post-title a, .post-title a:hover {
+color: #B20E00;
+}
+
+.page #primary{
+margin: 0 auto;
+right: 0;
+left: 0;
+position: relative;
+float: none;
+clear: both;
+}
+a {
+color: #B20E00;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #B20E00;
+}
+
+.archive .entry-title a:hover {
+  color: #B20E00;
+}
+
+#footer-sidebar .widget_calendar thead {
+  border-bottom: solid 1px #B20E00;
+}
+
+.social-icon:hover {
+  color: #B20E00;
+}
+
+.contact-form label span {
+color: #555;
+}
+
+#primary-main h2.entry-title a:hover {
+color: #B20E00;
+}
+
+
+
